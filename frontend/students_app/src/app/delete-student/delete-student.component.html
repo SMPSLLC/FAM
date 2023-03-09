@@ -1,0 +1,17 @@
+<h2>Delete Student</h2>
+<div class="row">
+  <div class="col-md-8">
+    <div class="card">
+      <div class="card-header">
+        Are you sure you want to delete this student?
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">{{ student.name }}</h5>
+        <p class="card-text">{{ student.email }}</p>
+        <p class="card-text">{{ student.phone }}</p>
+        <button type="button" class="btn btn-danger" (click)="onDelete()">Delete</button>
+        <a routerLink="/students" class="btn btn-secondary">Cancel</a>
+      </div>
+    </div>
+  </div>
+</div>
