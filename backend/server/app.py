@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 from dataclasses import dataclass
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:root@127.0.0.1:8889/students_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://azure_sa:kUvkyh-wyfbi4-dujvok@studentsserver.mysql.database.azure.com:8889/students_db'
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 db = SQLAlchemy(app)
