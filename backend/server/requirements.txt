@@ -1,0 +1,7 @@
+altgraph 
+autopep8==2.0.0
+future
+macholib
+pycodestyle==2.9.1
+six
+tomli==2.0.1
